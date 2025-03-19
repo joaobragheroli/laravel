@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f1e6;
+    color: #333;
+  }
+  .navbar, .footer {
+    background-color: #ff7f50;
+  }
+  .btn-primary {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+  }
+  .btn-primary:hover {
+    background-color: #e76f50;
+    border-color: #e76f50;
+  }
+  .card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
