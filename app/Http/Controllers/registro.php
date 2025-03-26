@@ -13,6 +13,10 @@ class registro extends Controller
     function registro(){
         return View("registro");
     }
+
+    function criarConta(Request $request){
+        dd($request->all());
+    }
 }
 
 

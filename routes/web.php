@@ -26,5 +26,8 @@ Route::get('/listarAnimais', [App\Http\Controllers\listarAnimais::class, 'listar
 Route::get('/login', [App\Http\Controllers\login::class, 'login'])->name('login');
 Route::get('/Registro', [App\Http\Controllers\registro::class, 'registro'])->name('registro');
 
+Route::post('/Registro', [App\Http\Controllers\registro::class, 'criarConta'])->name('registro');
+
+
 
 

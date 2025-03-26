@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Tutor extends Model
 {
     use HasFactory;
+
+    protected $table = 'tutor';
+    protected $fillable = ['nome','telefone','email'];
 }
