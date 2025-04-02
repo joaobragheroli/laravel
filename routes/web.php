@@ -29,5 +29,11 @@ Route::get('/Registro', [App\Http\Controllers\registro::class, 'registro'])->nam
 Route::post('/Registro', [App\Http\Controllers\registro::class, 'criarConta'])->name('registro');
 
 
+Route::get('/animal', [App\Http\Controllers\animal::class, 'registroAnimal'])->name('animal');
+Route::post('/animal', [App\Http\Controllers\animal::class, 'criarContaAnimal'])->name('animal');
+
+
+
+
 
 

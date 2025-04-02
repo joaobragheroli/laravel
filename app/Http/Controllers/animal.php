@@ -3,28 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Usuario;
 
-
-   
-//PascalCase
-class registro extends Controller
+class animal extends Controller
 {
     //cameCase
-    function registro(){
+    function registroAnimal(){
         return View("registro");
     }
 
-    function criarConta(Request $request){
+    function criarContaAnimal(Request $request){
         // dd($request->all());
 
         $usuario = new Usuario();
         $usuario->create($request->all());
 
-        return view('registro');
+        return view('login');
         
     }
-  
 }
-
-
